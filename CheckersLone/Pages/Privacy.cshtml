@@ -1,0 +1,32 @@
+﻿@page
+@model PrivacyModel
+@{
+    ViewData["Title"] = "Players List";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+@if (Model.Players != null && Model.Players.Count > 0)
+{
+    <table>
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var player in Model.Players)
+            {
+                <tr>
+                    <td>@player.Id</td>
+                    <td>@player.Name</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+else
+{
+    <p>No players found.</p>
+}
