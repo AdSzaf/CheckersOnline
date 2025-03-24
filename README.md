@@ -1,8 +1,8 @@
-# Warcaby Online
+# Checkers Online
 
-Warcaby online to aplikacja webowa stworzona w .NET Core z użyciem Razor Pages, pozwalająca na grę w warcaby w przeglądarce.
+Online checkers for a web app built in .NET Core using Razor Pages, which is available for playing checkers in the solution.
 
-## 🛠 Technologie
+## 🛠 Technolgies
 - **Backend:** .NET Core
 - **Frontend:** Razor Pages, HTML, CSS, JavaScript
-- **Baza danych:** SQL Server
+- **Database:** SQL Server
